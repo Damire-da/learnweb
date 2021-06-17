@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Знакомсвто с html-тегами №3</title>
+</head>
+<body>
+    <form action="#" method="POST" enctype="multipart/form-data">
+        <div>
+            <p>Name</p>
+            <p><input type="text"></p>
+        </div>
+        <div>
+            <p>Password</p>
+            <p><input type="password"></p>
+        </div>
+        <div>
+            <p>Phone Number</p>
+            <p><input type="phonenumber"></p>
+        </div>
+        <div>
+            <p>Birthday</p>
+            <div>
+                <input placeholder="00.00.00" type="text">
+            </div>
+        </div>
+        <div>
+            <p>Gender</p>
+            <input type="radio" name="Gender">Male
+            <input type="radio" name="Gender">Female
+        </div>
+        <div>
+            <p>Property</p>
+            <p><input checked type="checkbox" name="Property">Bicycle</p>
+            <p><input type="checkbox" name="Property">Car</p>
+            <p><input disabled type="checkbox" name="Property">House</p>
+        </div>
+        <div>
+            <p>Additional information</p>
+            <textarea name="text"></textarea>
+        </div>
+        <div>
+            <p>Add Photo</p>
+            <input type="file" name="userphoto">
+        </div>
+        <div>
+            <p>Favorite color</p>
+            <select name="color" id="">
+                <option value="red">red</option>
+                <option value="yellow">yellow</option>
+                <option selected value="green">green</option>
+                <option value="black">black</option>
+            </select>
+        </div>
+        <div>
+            <p>Actions</p>
+            <button type="submit">Send</button>
+            <button type="reset">Clear</button>
+        </div>
+    </form>
+</body>
+</html>
