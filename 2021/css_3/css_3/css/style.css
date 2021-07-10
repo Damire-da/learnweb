@@ -35,57 +35,56 @@ ul li {list-style:none;}
 img{vertical-align: top;}
 h1,h2,h3,h4,h5,h6{font-size: inherit; font-weight: 400;}
 
-.arial{
-    font-family: Arial, Helvetica, sans-serif;
+.width700{
+    margin: 0px 0px 50px 0px;
+    width: 700px;
 }
 
-.fontsize30{
-    font-size: 30px;
+.inline-block{
+    display: block;  
+    width: 450px;
 }
 
-.italic{
-    font-style: italic;
-    font-size: 28px;
+.margin{
+    display: inline-block;
+    margin-bottom: 50px;
 }
 
-.font600{
-    font-weight: 600;
-    font-size: 28px;
+.height{
+    height: 100px;
+    border: 1px solid #000;
+    margin-bottom: 30px;
 }
 
-.colorred{
-    color:salmon;
-    font-size: 28px;;
+.inline{
+    display: inline-block;
+    margin-right:40px;
+    width: 200px;
+    border: 1px solid #000;
 }
 
-.textright{
-    text-align: center;
+.p{
+    display: inline-block;
+    margin:0px 0px 100px 0px;
+    border: 1px solid #000;
 }
 
-.decoration{
-    text-decoration: line-through;
+.padding{
+    width: 700px;
+    padding: 0px 40px 0px 40px;
+    border: 1px solid #000;
 }
 
-.shadow{
-    text-shadow: 1px 1px 3px black;
+.page{
+    display: inline-block;
+    padding-right: 40px;  
+    margin: 0px 0px 50px 0px;
+    border: 1px solid #000;
 }
 
-.ident{
-    text-indent: 50px;
-}
+.last{
+    display: block;
+    border: 1px solid #000;
+    padding: 50px 20px 50px 0px;
 
-.ispace{
-    letter-spacing: 5px;
-}
-
-.wrspace{
-    word-spacing: 10px;
-}
-
-.whitespace{
-    white-space:nowrap;
-}
-
-.lineheight{
-    line-height: 40px;
 }
