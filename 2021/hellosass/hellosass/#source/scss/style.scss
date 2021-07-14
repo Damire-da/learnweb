@@ -1,0 +1,22 @@
+@import "nullstyle.scss";
+
+
+@mixin fonts($f){
+    font-size: $f;
+}
+
+body{
+    background-color: seashell;
+}
+.content{
+    font-size: 20px;
+
+    ul{
+        color: yellowgreen;
+    }
+    .list{
+        @include fonts(60px);
+    }
+
+}
+
