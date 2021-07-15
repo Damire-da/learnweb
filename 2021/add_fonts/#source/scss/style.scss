@@ -1,0 +1,28 @@
+@import "nullstyle.scss";
+
+@import url('https://../fonts.googleapis.com/css2?family=Qahiri&display=swap');
+
+
+@font-face {
+ 	font-family: 'PFDinTextCondPro';
+	src: url('../../fonts/pfdintextcondpro-italic.eot');
+ 	src: local('☺'), url('../fonts/pfdintextcondpro-italic.woff') format('woff'), url('../fonts/pfdintextcondpro-italic.ttf') format('truetype'), url('../fonts/pfdintextcondpro-italic.svg') format('svg');
+ 	font-weight: normal;
+	font-style: italic;
+ }
+
+.qahiri{
+    p{
+        font-family: "Qahiri";
+    }
+    font-size: 30px;
+    line-height: 50px;
+}
+
+.PFDin{
+    font-family: 'PFDinTextCondPro';
+    font-style: italic;
+}
+
+
+
