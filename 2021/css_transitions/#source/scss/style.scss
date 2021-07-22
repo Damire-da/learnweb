@@ -1,0 +1,38 @@
+@import "nullstyle.scss";
+
+
+body{
+	background-color: bisque;
+}
+
+.wrapper {
+}
+.body {
+
+	display: flex;
+	
+	
+}
+.button_1 {
+	color: aliceblue;
+	display: block;
+	background-color: #FF7F50;
+	font-size: 32px;
+	text-align: center;
+	height: 140px;
+	width: 450px;
+	margin: 500px auto;
+	line-height: 40px;
+	border-radius: 25px;
+	padding: 52px;
+	text-transform: uppercase;
+	box-shadow:0 5px 0px rgba(0,0,0,0.5);
+	transition-duration: 0.8s, 100ms;
+	transition-property: background-color, top;
+	position: relative;
+	&:hover{
+		background-color: #00BFFF;
+		box-shadow:0 3px 0px rgba(0,0,0,0.5);
+		top: 2px;
+	}
+}
