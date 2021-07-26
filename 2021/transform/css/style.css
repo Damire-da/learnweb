@@ -1,0 +1,243 @@
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+
+*, *:before, *:after {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+:focus, :active {
+  outline: none;
+}
+
+a:focus, a:active {
+  outline: none;
+}
+
+nav, footer, header, aside {
+  display: block;
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+  font-size: 100%;
+  line-height: 1;
+  font-size: 16px;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+input, button, textarea {
+  font-family: inherit;
+}
+
+input::-ms-clear {
+  display: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+button::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+
+a, a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+ul li {
+  list-style: none;
+}
+
+img {
+  vertical-align: top;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-size: inherit;
+  font-weight: 400;
+}
+
+.content div {
+  text-align: center;
+  -webkit-transition: all 0.8s ease 0s;
+  transition: all 0.8s ease 0s;
+  font-size: 32px;
+  padding: 44px 0px 0px 0px;
+  width: 170px;
+  height: 170px;
+  margin: 40px auto;
+  color: azure;
+}
+
+.content__translate {
+  background-color: chartreuse;
+}
+
+.content__translate:hover {
+  -webkit-transform: translate(40px, 70px);
+          transform: translate(40px, 70px);
+}
+
+.content__scale {
+  background-color: bisque;
+}
+
+.content__scale:hover {
+  -webkit-transform: scale(4, 1);
+          transform: scale(4, 1);
+}
+
+.content__rotate {
+  background-color: darkcyan;
+}
+
+.content__rotate:hover {
+  -webkit-transform: rotate(360deg);
+          transform: rotate(360deg);
+}
+
+.content__skew {
+  background-color: violet;
+}
+
+.content__skew:hover {
+  -webkit-transform: skew(-45deg, 30deg);
+          transform: skew(-45deg, 30deg);
+}
+
+.content__matrix {
+  background-color: chocolate;
+}
+
+.content__matrix:hover {
+  -webkit-transform: matrix(0.5, 0, 0, 1.5, 20, 20);
+          transform: matrix(0.5, 0, 0, 1.5, 20, 20);
+}
+
+.content__transform-origin {
+  background-color: brown;
+  -webkit-transform-origin: 0 0;
+          transform-origin: 0 0;
+  margin: 0 auto;
+}
+
+.content__transform-origin:hover {
+  -webkit-transform: rotate(-30deg);
+          transform: rotate(-30deg);
+}
+
+.content h2 {
+  font-size: 40px;
+  text-align: center;
+}
+
+.content .content__wrapper3D {
+  width: 170px;
+  height: 170px;
+  -webkit-box-shadow: 10px 8px 7px gray;
+          box-shadow: 10px 8px 7px gray;
+  background-color: darkgray;
+  -webkit-perspective-origin: center;
+          perspective-origin: center;
+  -webkit-perspective: 200px;
+          perspective: 200px;
+}
+
+.content .content__wrapper3D div {
+  margin: -45px auto;
+  color: black;
+}
+
+.content .content__perspective {
+  background-color: antiquewhite;
+}
+
+.content .content__perspective:hover {
+  -webkit-transform: rotateX(50deg);
+          transform: rotateX(50deg);
+}
+
+.content .content__translate3D {
+  background-color: crimson;
+}
+
+.content .content__translate3D:hover {
+  -webkit-transform: translate3d(30px, 30px, 50px);
+          transform: translate3d(30px, 30px, 50px);
+}
+
+.content .content__scale3D {
+  background-color: darkgray;
+}
+
+.content .content__scale3D:hover {
+  -webkit-transform: scale3d(2, 4, 6);
+          transform: scale3d(2, 4, 6);
+}
+
+.content .content__rotate3D {
+  background-color: coral;
+}
+
+.content .content__rotate3D:hover {
+  -webkit-transform: rotate3d(1, 2, 3, -90deg);
+          transform: rotate3d(1, 2, 3, -90deg);
+}
+
+.content .content__multi3D {
+  background-color: cadetblue;
+}
+
+.content .content__multi3D:hover {
+  -webkit-transform: translate3d(40px, 40px, 70px) rotate3D(1, 2, 4, 45deg);
+          transform: translate3d(40px, 40px, 70px) rotate3D(1, 2, 4, 45deg);
+}
+
+.content .content__transform-style-wrapper {
+  width: 170px;
+  height: 170px;
+  background-color: gray;
+  -webkit-perspective-origin: center;
+          perspective-origin: center;
+  -webkit-perspective: 400px;
+          perspective: 400px;
+  -webkit-transform-style: preserve-3d;
+          transform-style: preserve-3d;
+}
+
+.content .content__transform-style-wrapper div {
+  margin: -45px auto;
+}
+
+.content .content__transform-style {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  background-color: yellowgreen;
+}
+
+.content .content__transform-style:hover {
+  -webkit-transform: rotateX(45deg);
+          transform: rotateX(45deg);
+}
+/*# sourceMappingURL=style.css.map */

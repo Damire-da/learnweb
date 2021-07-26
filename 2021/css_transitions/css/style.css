@@ -95,8 +95,8 @@ body {
   text-transform: uppercase;
   -webkit-box-shadow: 0 5px 0px rgba(0, 0, 0, 0.5);
           box-shadow: 0 5px 0px rgba(0, 0, 0, 0.5);
-  -webkit-transition-duration: 0.8s, 100ms;
-          transition-duration: 0.8s, 100ms;
+  -webkit-transition-duration: 1s, 100ms;
+          transition-duration: 1s, 100ms;
   -webkit-transition-property: background-color, top;
   transition-property: background-color, top;
   position: relative;

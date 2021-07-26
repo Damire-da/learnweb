@@ -1,0 +1,147 @@
+@import "nullstyle.scss";
+
+
+
+
+.content {
+
+
+	div{
+		text-align: center;
+		transition: all 0.8s ease 0s;
+		font-size: 32px;
+		padding: 44px 0px 0px 0px;
+		width: 170px;
+		height: 170px;
+		margin: 40px auto;
+		color: azure;
+	}
+	&__translate {
+		background-color:chartreuse;
+
+	}
+	&__translate:hover{
+		transform: translate(40px,70px);
+	}
+
+	&__scale {
+		
+		background-color: bisque;
+	}
+	&__scale:hover{
+		transform: scale(4,1);
+	}
+	&__rotate{
+		background-color: darkcyan;
+	}
+	&__rotate:hover{
+		transform: rotate(360deg);
+	}
+	&__skew{
+		background-color:violet;
+	}
+	&__skew:hover{
+		transform: skew(-45deg,30deg);
+	}
+	&__matrix{
+		background-color:chocolate;
+	}
+	&__matrix:hover{
+		transform: matrix(0.5,0,0,1.5,20,20);
+	}
+	&__transform-origin{
+		background-color: brown;
+		transform-origin: 0 0;//верхний левый угол
+		margin: 0 auto;
+	}
+	&__transform-origin:hover{
+		transform: rotate(-30deg);
+		
+	}
+	h2{
+		font-size: 40px;
+		text-align: center;
+	}
+	.content {
+
+		&__wrapper3D {
+
+			width: 170px;
+			height: 170px;
+			box-shadow: 10px 8px 7px gray;
+			background-color: darkgray;
+			div{
+				margin: -45px auto;
+				color: black;
+			}
+			perspective-origin: center;
+			perspective: 200px;
+
+		}
+
+		&__perspective {
+
+			background-color: antiquewhite;
+		}
+		&__perspective:hover{
+
+			transform: rotateX(50deg);
+		}
+
+		&__translate3D {
+			background-color: crimson;
+		}
+		&__translate3D:hover {
+			transform: translate3d(30px, 30px, 50px);
+
+		}
+
+		&__scale3D {
+			background-color: darkgray;
+		}
+		&__scale3D:hover {
+			transform: scale3d(2,4,6);//очень похоже на обычное scale
+		}
+
+		&__rotate3D {
+			background-color: coral;
+		}
+		&__rotate3D:hover{
+			transform: rotate3d(1,2,3,-90deg);
+		}
+		&__multi3D{
+			background-color: cadetblue;
+		}
+		&__multi3D:hover{
+			transform: translate3d(40px,40px,70px) rotate3D(1,2,4,45deg);
+		}
+
+		&__transform-style-wrapper {
+			width: 170px;
+			height: 170px;
+			background-color: gray;
+			perspective-origin: center;
+			perspective: 400px;
+			transform-style:preserve-3d;
+			div{
+				margin: -45px auto;
+			}
+		}
+
+
+		&__transform-style {
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			text-align: center;
+			background-color: yellowgreen;
+		}
+
+		&__transform-style:hover {
+			transform: rotateX(45deg);
+		}
+
+}
+}
+
+

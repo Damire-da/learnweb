@@ -1,0 +1,63 @@
+@import "nullstyle.scss";
+
+
+body{
+	background-color: bisque;
+}
+
+.wrapper {
+}
+.content {
+	display: flex;
+	justify-content: center;
+	margin: 400px 0px 0px 0px;
+	padding: 20px;
+		&__circle {
+			width: 200px;
+			height: 200px;
+			border-radius: 50%;
+			background: orange;
+			position: relative;
+			padding: 60px;
+			font-size: 28px;
+			
+			animation: circle 1s ease-in-out infinite alternate;
+			&:hover{
+				background-color: #F08080;
+				animation-play-state: paused;
+			}
+		}
+
+		@keyframes circle{
+			0%{
+				left: -600px;
+			}
+			100%{
+				left: 600px;
+			}
+		}
+	@media(max-width:1450px){
+		.content{
+			margin: 400px 300px;
+		}
+		@keyframes circle{
+			0%{
+				left: -300px;
+			}
+			100%{
+				left: 300px;
+			}
+		}
+		}
+	 @media(max-width:1100px){
+		@keyframes circle{
+			0%{
+				left: -200px;
+			}
+			100%{
+				left: 200px;
+			}
+		}
+	 }
+		
+}
